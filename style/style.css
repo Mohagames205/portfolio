@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+:root {
+    --primary-color: #10375c;
+    --background-color: #127681;
+    --accent-color: #f3c623; 
+}
+
+body {
+    margin: 0;
+    background-color: var(--primary-color);
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#namebanner {
+    padding: 220px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.info h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.info {
+    margin-top: -10px;
+    padding: 150px 20px 80px 20px;
+    background-color: var(--background-color);
+    overflow-x:hidden;
+    text-align: center;
+}
+
+
+.content p {
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+
+.item .text{
+    text-align: left;
+}
+
+button {
+    cursor: pointer;
+}
+
+.item{
+    position: relative;
+    overflow:hidden;
+    padding: 30px;
+    transition: 0.5s;
+    margin: 10px;
+    display: inline-block;
+    width: 30rem;
+    height: 15rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    -webkit-box-shadow: 7px 7px 10px -7px rgba(0,0,0,0.15);
+    -moz-box-shadow: 7px 7px 10px -7px rgba(0,0,0,0.15);
+    box-shadow: 7px 7px 10px -7px rgba(0,0,0,0.15);
+}
+
+.item h2{
+    font-size: 30px;
+}
+
+.primary-button {
+    width: 120px;
+    height: 42px;
+    border: solid white 2px;
+    border-radius: 20px;
+    background-color: var(--accent-color);
+    color: white;
+    cursor: pointer;
+}
+
+.secondary-button {
+    width: 120px;
+    height: 42px;
+    border: solid white 2px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 600px){
+    #namebanner {
+        font-size: 20px;
+        padding: 30px;
+    }
+    .info {
+        margin-top: -4px;
+    }
+    .item{
+        width: 85%;
+        height: 20rem;
+        padding: 10px;
+    }
+}
+
+footer{
+    text-align: center;
+    height: 11rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    overflow:hidden;
+    -webkit-box-shadow: 7px 7px 10px -7px rgba(0,0,0,0.15);
+    -moz-box-shadow: 7px 7px 10px -7px rgba(0,0,0,0.15);
+    box-shadow: 7px 7px 10px -7px rgba(0,0,0,0.15);
+}
+
+#typewriter {
+    font-size: 20px;
+}

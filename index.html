@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed El Yousfi</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+</head>
+<body>
+    <div class="namecontainer">
+        <div id="namebanner">
+            <h1>Hoi, ik ben <span style="color:var(--secondary-color)">Mohamed<span style="color:rgb(233, 185, 2); font-size: 50px;">.</span></h1>
+            <h3 id="typewriter"></h3>
+            <button class="primary-button" onclick="goTo('projects')">Mijn projecten</button>
+            <button class="secondary-button" onclick="goTo('contact')">Contacteer mij</button>
+        </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" style="fill: var(--background-color);" viewBox="0 0 240 22" preserveAspectRatio=none>
+            <path class="divider-fill" style="opacity:0.33" d="m 239.971,0.03506085 c -4.61,-0.17416486 -9.552,0.31166344 -15,1.20998745 C 204.576,4.6559297 198.738,12.530015 185.552,17.095884 163.344,24.776555 144.006,3.7851053 119.933,3.7851053 94.252,3.7851053 89.447,26.941699 57.427,20.331684 34.632,15.582483 27.625,7.6350655 10.323,10.13754 7.613,10.540869 3.77,11.090863 0,11.796689 V 22 H 240 V 0.03506085 Z"></path>
+            <path class="divider-fill" d="m 239.99,5.2731131 c -4.825,-0.584952 -10.606,-0.1919374 -17.48,0.813449 -20.276,2.943954 -24.593,9.9542389 -38.892,13.9026649 -23.967,6.65383 -39.71,-14.633855 -61.787,-14.633855 -23.521,0 -37.345,20.794132 -63.486,15.119183 C 39.701,16.406396 32.922,9.5240694 15.861,11.69936 9.751,12.476249 4.438,14.039168 0,17.816679 V 22 H 240 V 6.6011371 Z"></path>
+            <path class="divider-fill" style="opacity:0.33" d="M 222.049,3.2571465 C 201.246,6.7240757 196.851,14.983196 182.2,19.643048 157.589,27.470666 141.472,2.4081215 118.858,2.4081215 94.734,2.4081215 80.571,26.930123 53.776,20.210617 34.707,15.400719 27.743,7.3112169 10.27,9.8648154 6.553,10.414678 3.121,11.28141 0,12.399774 V 22 H 240 V 2.3242443 C 234.979,1.6345862 229.1,2.0912517 222.049,3.2571465 Z"></path>
+        </svg>
+    </div>
+    <div class="info" id="projects">
+        <h2> Mijn projecten<span style="color:rgb(233, 185, 2); font-size: 50px;">.</span></h2><br>
+        <div class="item">
+            <div class="text">
+                <h2> PlotArea </h2>
+                <p> PlotArea is een land-managament plugin voor MCBE met een zeer uitgebreide API.</p>
+            </div>
+            <button class="primary-button" onclick="window.open('https://github.com/Mohagames205/PlotArea')">Source</button>
+        </div>
+    
+        <div class="item">
+            <div class="text">
+                <h2> FlowPanel </h2>
+                <p> FlowPanel is een paneel gemaakt voor een fictief bedrijf op Habbo. Het was 1 van mijn eerste grote PHP projecten. Het project is geschreven zonder framework en bevat veel exploits. Momenteel wordt het project herschreven in Laravel.</p>
+            </div>
+            <button class="primary-button"  onclick="window.open('https://github.com/Mohagames205/Flowpanel')">Source</button>
+        </div>
+    
+        <div class="item">
+            <div class="text">
+                <h2> KindMessage </h2>
+                <p> KindMessage is 1 van mijn eerste websites gemaakt in Laravel. Mensen kunnen met een unieke code toegang krijgen tot een gepersonaliseerd bericht. Dit is leuk voor verjaardagen etc</p>
+            </div>
+            <button class="primary-button"  onclick="window.open('https://github.com/Mohagames205/KindMessage')">Source</button>
+        </div>
+    
+        <div class="item">
+            <div class="text">
+                <h2> LoveMeter </h2>
+                <p> LoveMeter is een website die ik uit verveling heb gemaakt. Het meet hoe goed 2 personen bij elkaar passen op basis van hun naam. Hoe meer letters hetzelfde zijn, hoe beter de score.</p>
+            </div>
+            <button class="primary-button" onclick="window.open('http://168.63.121.116')">Demo</button>
+        </div>
+        <div class="item">
+            <div class="text">
+                <h2>Quadratic Solver</h2>
+                <p>Quadratic Solver is een website die 2de graadsvergelijkingen oplost. Het toont ook mooi alle stapjes die het programma heeft genomen. Zo kunnen de leerlingen leren uit hun fouten doordat ze zien hoe de website op de oplossing komt.</p>
+            </div>
+            <button class="primary-button"  onclick="window.open('https://vergelijking.herokuapp.com/')">Demo</button>
+        </div>
+        <div class="item">
+            <div class="text">
+                <h2>Forum</h2>
+                <p> Deze website is een zeer simpel forum systeempje, waar je posts kan verwijderen en posten. Dit was 1 van mijn allereerste php sites die ik heb gemaakt.</p>
+            </div>
+            <button class="primary-button" onclick="window.open('https://archief.mohamedelyousfi.me/forum/')">Demo</button>
+        </div>
+        <div class="item">
+            <div class="text">
+                <h2>Pompeius Expo</h2>
+                <p>Dit was een website die ik had gemaakt voor een opdracht die we hadden gekregen voor het vak Latijn. De website bevat informatie over de Pompeius Exositie.</p>
+            </div>
+            <button class="primary-button" onclick="window.open('https://archief.mohamedelyousfi.me/Latijn/')">Demo</button>
+        </div>
+        <div class="item">
+            <div class="text">
+                <h2>CakeCraft website</h2>
+                <p>De CakeCraft website had ik gemaakt voor een MCPE server die ik had gemaakt. Er waren destijds feautures beschikbaar zoals een live scoreboard en een sollicitatiesysteem, maar deze werken niet meer.</p>
+            </div>
+            <button class="primary-button" onclick="window.open('https://archief.mohamedelyousfi.me/cakecraft/')">Demo</button>
+        </div>
+        <div class="item">
+            <div class="text">
+                <h2>Corona Tracker</h2>
+                <p>Corona tracker is een website die het aantal besmettingen, doden en genezingen toont. De data wordt opgehaald via een externe API.</p>
+            </div>
+            <button class="primary-button" onclick="window.open('https://mohamedelyousfi.me/corona/')">Demo</button>
+        </div>
+        <br>
+        <br>
+        <div id="contact">
+            <h2 style="margin: 80px 0px 50px 0px; font-size: 40px;"> Contacteer mij<span style="color:rgb(233, 185, 2); font-size: 50px;">.</span></h2>
+            <footer>
+                <h3>Discord</h3>
+                <p>Mohamed#0002</p>
+                <h3>Mail</h3>
+                <a style="text-decoration: none; color: white; text-decoration: underline;" href="mailto:mohamedelyousfi87@gmail.com">mohamedelyousfi87@gmail.com</a>
+            </footer>
+        </div>
+        <h3> Meer?</h3>
+            <p> Bezoek <a href="https://archief.mohamedelyousfi.me">het archief</a> om meer projecten van mij te zien.</p>
+            <br>
+        <script>
+
+            function goTo(id){
+                document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+            }
+
+        </script>
+        <script>
+        var element = document.getElementById('typewriter');
+
+        var typewriter = new Typewriter(element, {
+            strings: ["Een PHP, Java, Python en web-developer", "Een Ruimte liefhebber 🚀 ✨", "Beep boop beep beep boop 🤖","Ben je nog aan het lezen? 😮"],
+            loop: true,
+            delay: 80,
+            autoStart: true
+        });
+        </script>
+</body>
+</html>
