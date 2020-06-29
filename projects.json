@@ -1,0 +1,59 @@
+{ 
+    "projects":
+    [
+        {
+            "title": "PlotArea",
+            "description": "PlotArea is een land-managament plugin voor MCBE met een zeer uitgebreide API.",
+            "source": "https://github.com/Mohagames205/PlotArea",
+            "demo": "#"
+        },
+        {
+            "title": "FlowPanel",
+            "description": "FlowPanel is een paneel gemaakt voor een fictief bedrijf op Habbo. Het was 1 van mijn eerste grote PHP projecten. Het project is geschreven zonder framework en bevat veel exploits. Momenteel wordt het project herschreven in Laravel.",
+            "source": "https://github.com/Mohagames205/Flowpanel",
+            "demo": "#"
+        },
+        {
+            "title": "KindMessage",
+            "description": "KindMessage is 1 van mijn eerste websites gemaakt in Laravel. Mensen kunnen met een unieke code toegang krijgen tot een gepersonaliseerd bericht. Dit is leuk voor verjaardagen etc",
+            "source": "https://github.com/Mohagames205/KindMessage",
+            "demo": "#"
+        },
+        {
+            "title": "LoveMeter",
+            "description": "LoveMeter is een website die ik uit verveling heb gemaakt. Het meet hoe goed 2 personen bij elkaar passen op basis van hun naam. Hoe meer letters hetzelfde zijn, hoe beter de score.",
+            "source": "https://github.com/Mohagames205/LoveMeter",
+            "demo": "#"
+        },
+        {
+            "title": "Quadratic Solver",
+            "description": "Quadratic Solver is een website die 2de graadsvergelijkingen oplost. Het toont ook mooi alle stapjes die het programma heeft genomen. Zo kunnen de leerlingen leren uit hun fouten doordat ze zien hoe de website op de oplossing komt.",
+            "source": "https://github.com/Mohagames205/quadratic_web",
+            "demo": "https://vergelijking.herokuapp.com"
+        },
+        {
+            "title": "Forum",
+            "description": "Deze website is een zeer simpel forum systeempje, waar je posts kan verwijderen en posten. Dit was 1 van mijn allereerste php sites die ik heb gemaakt.",
+            "source": "#",
+            "demo": "https://archief.mohamedelyousfi.me/forum"
+        },
+        {
+            "title": "Pompeius Expo",
+            "description": "Dit was een website die ik had gemaakt voor een opdracht die we hadden gekregen voor het vak Latijn. De website bevat informatie over de Pompeius Expositie.",
+            "source": "#",
+            "demo": "https://archief.mohamedelyousfi.me/Latijn/"
+        },
+        {
+            "title": "CakeCraft website",
+            "description": "De CakeCraft website had ik gemaakt voor een MCPE server die ik had gemaakt. Er waren destijds feautures beschikbaar zoals een live scoreboard en een sollicitatiesysteem, maar deze werken niet meer.",
+            "source": "#",
+            "demo": "https://archief.mohamedelyousfi.me/cakecraft"
+        },
+        {
+            "title": "Corona Tracker",
+            "description": "Corona tracker is een website die het aantal besmettingen, doden en genezingen toont. De data wordt opgehaald via een externe API.",
+            "source": "#",
+            "demo": "https://mohamedelyousfi.me/corona/"
+        }
+    ]
+}
