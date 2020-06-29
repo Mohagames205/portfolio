@@ -159,3 +159,13 @@ footer {
 #typewriter {
   font-size: 20px;
 }
+
+.notification {
+  text-align: center;
+  background-color: red;
+  padding: 10px;
+}
+
+.notification p {
+  margin: 0;
+}
