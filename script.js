@@ -34,3 +34,8 @@ function goTo(id) {
     behavior: "smooth",
   });
 }
+
+function closeElement(id){
+  var element = document.getElementById(id);
+  element.parentNode.removeChild(element);
+}

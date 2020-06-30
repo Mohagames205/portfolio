@@ -169,3 +169,8 @@ footer {
 .notification p {
   margin: 0;
 }
+
+.deleteButton {
+  position: absolute;
+  right: 10px;
+}
