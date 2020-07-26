@@ -5,14 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mohamed El Yousfi</title>
     <link rel="stylesheet" href="style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <link
+      href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@3/dark.css"
+      rel="stylesheet"
+    />
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@9/dist/sweetalert2.min.js"></script>
     <script type="text/json" src="projects.json"></script>
     <script type="text/javascript" src="script.js"></script>
   </head>
 
   <body>
     <div class="notification" id="DonationBanner">
-      <p>Black Lives Matter | <button onClick="window.open('https://secure.actblue.com/donate/ms_blm_homepage_2019')"  class="secondary-button btn-small">Doneer nu</button> <button class="deleteButton" title="Verberg melding" onClick="closeElement('DonationBanner')"><b>X</b></button></p>
+      <p>
+        Black Lives Matter |
+        <button
+          onClick="window.open('https://secure.actblue.com/donate/ms_blm_homepage_2019')"
+          class="secondary-button btn-small"
+        >
+          Doneer nu
+        </button>
+        <button
+          class="deleteButton"
+          title="Verberg melding"
+          onClick="closeElement('DonationBanner')"
+        >
+          <b>X</b>
+        </button>
+      </p>
     </div>
     <div class="namecontainer">
       <div id="namebanner">
@@ -71,27 +97,69 @@
           >.</span
         >
       </h2>
-      <footer>
-        <h3>Discord</h3>
-        <p>Mohamed#0002</p>
-        <h3>Mail</h3>
-        <a
-          style="
-            text-decoration: none;
-            color: white;
-            text-decoration: underline;
+      <div id="wrapper">
+        <div class="contact-form">
+          <div class="contact-box">
+            <form>
+              <p>Naam:</p>
+              <input type="text" />
+              <p>Email:</p>
+              <input type="email" />
+              <p>Bericht:</p>
+              <textarea rows="8"></textarea><br /><br />
+              <button
+                type="submit"
+                onclick="event.preventDefault(); 
+          Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Dit gaat helaas nog niet! Je kan me bereiken door een bericht via mail of discord te sturen.',
+            footer: '<a href=\'https://github.com/mohagames205/portfolio\'>Bekijk dit project op Github</a>'
+          })
           "
-          href="mailto:mohamedelyousfi87@gmail.com"
-          >mohamedelyousfi87@gmail.com</a
-        >
-      </footer>
-      <h3>Meer?</h3>
-      <p>
-        Bezoek <a href="https://archief.mohamedelyousfi.me">het archief</a> om
-        meer projecten van mij te zien.
-      </p>
-      <br />
+                class="primary-button btn-small"
+              >
+                Indienen
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div class="socials">
+          <h2>Vragen? Feedback?</h2>
+          <p>
+            Vul het contactformulier in of contacteer mij via 1 van de knopjes.
+            Je krijgt dan zo snel mogelijk een antwoord van mij.
+          </p>
+          <span id="discordhidden"
+            ><button
+              class="primary-button"
+              onclick="document.querySelector('#discordhidden').innerHTML = '<b>Mohamed#0002</b>';"
+              style="background-color: #7289da;"
+            >
+              <i class="fab fa-discord"></i> Discord
+            </button></span
+          >
+          <button
+            class="primary-button"
+            onclick="location.href='mailto:mohamedelyousfi87@gmail.com';"
+            style="background-color: red;"
+          >
+            <i class="fa fa-envelope" aria-hidden="true"></i> Mail
+          </button>
+          <br /><br />
+          <h2>Archief</h2>
+          <p>Wil je meer projecten zien? Bezoek het archief!</p>
+          <button
+            class="secondary-button btn-small"
+            onclick="location.href='https://archief.mohamedelyousfi.me'"
+          >
+            Archief
+          </button>
+        </div>
+      </div>
     </div>
+
     <script>
       var element = document.getElementById("typewriter");
 
