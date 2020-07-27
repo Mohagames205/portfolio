@@ -120,10 +120,13 @@ button {
 }
 
 
+.contact-container {
+  background-color: #11707a;
+}
 
 #contact {
   padding: 0px 30px 80px 30px;
-  background-color: #11707a;
+  
   overflow-x: hidden;
   text-align: center;
 }
@@ -182,17 +185,24 @@ button {
   height: 20px;
   width: 250px;
   border-radius: 10px;
-  border: solid var(--primary-color) 1.5px;
+  border: solid gray 1px;
+  outline: none;
 }
 
 .contact-form textarea {
+  outline: none;
   padding: 10px;
   border-radius: 10px;
-  border: solid var(--primary-color) 1.5px;
+  border: solid gray 1px;
   width: 250px;
   min-width: 200px;
   max-width: 300px;
 }
+.contact-form input:focus, textarea:focus {
+  border: solid var(--accent-color) 1.5px;
+  transition: 250ms;
+}
+
 .contact-form form {
   text-align: left;
 }

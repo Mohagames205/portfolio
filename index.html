@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mohamed El Yousfi</title>
+    <!-- Made with love by Mohamed <3 
+    Look up at the stars, not down at your feet :)
+    -->
     <link rel="stylesheet" href="style/style.css" />
     <link
       rel="stylesheet"
@@ -91,25 +94,33 @@
       </h2>
       <br />
     </div>
-    <div id="contact">
-      <h2 style="margin: 80px 0px 50px 0px; font-size: 40px;">
-        Contacteer mij<span style="color: rgb(233, 185, 2); font-size: 50px;"
-          >.</span
-        >
-      </h2>
-      <div id="wrapper">
-        <div class="contact-form">
-          <div class="contact-box">
-            <form>
-              <p>Naam:</p>
-              <input type="text" />
-              <p>Email:</p>
-              <input type="email" />
-              <p>Bericht:</p>
-              <textarea rows="8"></textarea><br /><br />
-              <button
-                type="submit"
-                onclick="event.preventDefault(); 
+    <div class="contact-container">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#127681"
+          fill-opacity="1"
+          d="M0,128L48,106.7C96,85,192,43,288,64C384,85,480,171,576,202.7C672,235,768,213,864,176C960,139,1056,85,1152,85.3C1248,85,1344,139,1392,165.3L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+        ></path>
+      </svg>
+      <div id="contact">
+        <h2 style="margin: 80px 0px 50px 0px; font-size: 40px;">
+          Contacteer mij<span style="color: rgb(233, 185, 2); font-size: 50px;"
+            >.</span
+          >
+        </h2>
+        <div id="wrapper">
+          <div class="contact-form">
+            <div class="contact-box">
+              <form>
+                <p>Naam:</p>
+                <input type="text" />
+                <p>Email:</p>
+                <input type="email" />
+                <p>Bericht:</p>
+                <textarea rows="8"></textarea><br /><br />
+                <button
+                  type="submit"
+                  onclick="event.preventDefault(); 
           Swal.fire({
             icon: 'error',
             title: 'Oops...',
@@ -117,45 +128,46 @@
             footer: '<a href=\'https://github.com/mohagames205/portfolio\'>Bekijk dit project op Github</a>'
           })
           "
-                class="primary-button btn-small"
-              >
-                Indienen
-              </button>
-            </form>
+                  class="primary-button btn-small"
+                >
+                  Indienen
+                </button>
+              </form>
+            </div>
           </div>
-        </div>
 
-        <div class="socials">
-          <h2>Vragen? Feedback?</h2>
-          <p>
-            Vul het contactformulier in of contacteer mij via 1 van de knopjes.
-            Je krijgt dan zo snel mogelijk een antwoord van mij.
-          </p>
-          <span id="discordhidden"
-            ><button
-              class="primary-button"
-              onclick="document.querySelector('#discordhidden').innerHTML = '<b>Mohamed#0002</b>';"
-              style="background-color: #7289da;"
+          <div class="socials">
+            <h2>Vragen? Feedback?</h2>
+            <p>
+              Vul het contactformulier in of contacteer mij via 1 van de
+              knopjes. Je krijgt dan zo snel mogelijk een antwoord van mij.
+            </p>
+            <span id="discordhidden"
+              ><button
+                class="primary-button"
+                onclick="document.querySelector('#discordhidden').innerHTML = '<b>Mohamed#0002</b>';"
+                style="background-color: #7289da;"
+              >
+                <i class="fab fa-discord"></i> Discord
+              </button></span
             >
-              <i class="fab fa-discord"></i> Discord
-            </button></span
-          >
-          <button
-            class="primary-button"
-            onclick="location.href='mailto:mohamedelyousfi87@gmail.com';"
-            style="background-color: red;"
-          >
-            <i class="fa fa-envelope" aria-hidden="true"></i> Mail
-          </button>
-          <br /><br />
-          <h2>Archief</h2>
-          <p>Wil je meer projecten zien? Bezoek het archief!</p>
-          <button
-            class="secondary-button btn-small"
-            onclick="location.href='https://archief.mohamedelyousfi.me'"
-          >
-            Archief
-          </button>
+            <button
+              class="primary-button"
+              onclick="location.href='mailto:mohamedelyousfi87@gmail.com';"
+              style="background-color: red;"
+            >
+              <i class="fa fa-envelope" aria-hidden="true"></i> Mail
+            </button>
+            <br /><br />
+            <h2>Archief</h2>
+            <p>Wil je meer projecten zien? Bezoek het archief!</p>
+            <button
+              class="secondary-button btn-small"
+              onclick="location.href='https://archief.mohamedelyousfi.me'"
+            >
+              Archief
+            </button>
+          </div>
         </div>
       </div>
     </div>
