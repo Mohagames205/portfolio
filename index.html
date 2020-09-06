@@ -111,24 +111,21 @@
         <div id="wrapper">
           <div class="contact-form">
             <div class="contact-box">
-              <form>
+              <form action="sendmail.php" method="POST">
                 <p>Naam:</p>
-                <input type="text" />
+                <input type="text" name="name" required/>
                 <p>Email:</p>
-                <input type="email" />
+                <input type="email" name="email" required/>
                 <p>Bericht:</p>
-                <textarea rows="8"></textarea><br /><br />
+                <textarea rows="8" name="content" required></textarea><br /><br />
                 <button
-                  type="submit"
-                  onclick="event.preventDefault(); 
-          Swal.fire({
-            icon: 'error',
-            title: 'Oops...',
-            text: 'Dit gaat helaas nog niet! Je kan me bereiken door een bericht via mail of discord te sturen.',
-            footer: '<a href=\'https://github.com/mohagames205/portfolio\'>Bekijk dit project op Github</a>'
-          })
-          "
+                  type="submit"    
                   class="primary-button btn-small"
+                  onclick="Swal.fire(
+                    'Good job!',
+                    'You clicked the button!',
+                    'success'
+                  )"
                 >
                   Indienen
                 </button>
