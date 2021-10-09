@@ -44,4 +44,4 @@ USER www
 EXPOSE 9000
 CMD ["php-fpm"]
 
-RUN docker compose up
+RUN docker-compose up
