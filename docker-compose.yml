@@ -33,6 +33,7 @@ services:
       - ./.docker/nginx/conf.d/:/etc/nginx/conf.d/
     networks:
       - app-network
+      - captain-overlay-network
 
   #MySQL Service
   db:
@@ -52,6 +53,8 @@ services:
       - ./.docker/mysql/my.cnf:/etc/mysql/my.cnf
     networks:
       - app-network
+      - captain-overlay-network
+
 
 #Docker Networks
 networks:
