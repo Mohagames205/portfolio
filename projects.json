@@ -35,25 +35,25 @@
             "title": "Forum",
             "description": "Deze website is een zeer simpel forum systeempje, waar je posts kan verwijderen en posten. Dit was 1 van mijn allereerste php sites die ik heb gemaakt.",
             "source": "#",
-            "demo": "https://archief.mohamedelyousfi.me/forum"
+            "demo": "https://archief.mootje.be/forum"
         },
         {
             "title": "Pompeius Expo",
             "description": "Dit was een website die ik had gemaakt voor een opdracht die we hadden gekregen voor het vak Latijn. De website bevat informatie over de Pompeius Expositie.",
             "source": "#",
-            "demo": "https://archief.mohamedelyousfi.me/Latijn/"
+            "demo": "https://archief.mootje.be/Latijn/"
         },
         {
             "title": "CakeCraft website",
             "description": "De CakeCraft website had ik gemaakt voor een MCPE server die ik had gemaakt. Er waren destijds feautures beschikbaar zoals een live scoreboard en een sollicitatiesysteem, maar deze werken niet meer.",
             "source": "#",
-            "demo": "https://archief.mohamedelyousfi.me/cakecraft"
+            "demo": "https://archief.mootje.be/cakecraft"
         },
         {
             "title": "Corona Tracker",
             "description": "Corona tracker is een website die het aantal besmettingen, doden en genezingen toont. De data wordt opgehaald via een externe API.",
             "source": "#",
-            "demo": "https://mohamedelyousfi.me/corona/"
+            "demo": "https://mootje.be/corona/"
         }
     ]
 }
