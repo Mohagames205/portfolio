@@ -1,197 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mohamed El Yousfi</title>
-    <!-- Made with love by Mohamed <3 
-    Look up at the stars, not down at your feet :)
-    -->
-    <link rel="stylesheet" href="style/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
-      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
-      crossorigin="anonymous"
-    />
-    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <link
-      href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@3/dark.css"
-      rel="stylesheet"
-    />
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@9/dist/sweetalert2.min.js"></script>
-    <script type="text/json" src="projects.json"></script>
-    <script type="text/javascript" src="script.js"></script>
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="build/stylesheets/index.css">
 
-  <body>
-    <div class="notification" id="DonationBanner">
-      <p>
-        Black Lives Matter |
-        <button
-          onClick="window.open('https://secure.actblue.com/donate/ms_blm_homepage_2019')"
-          class="secondary-button btn-small"
-        >
-          Doneer nu
-        </button>
-        <button
-          class="deleteButton"
-          title="Verberg melding"
-          onClick="closeElement('DonationBanner')"
-        >
-          <b>X</b>
-        </button>
-      </p>
-    </div>
-    <div class="namecontainer">
-      <div id="namebanner">
-        <h1>
-          Hoi, ik ben Mohamed<span
-            style="color: rgb(233, 185, 2); font-size: 50px;"
-            >.</span
-          >
-        </h1>
-        <h3 id="typewriter"></h3>
-        <button class="primary-button" onclick="goTo('projects')">
-          Mijn projecten
-        </button>
-        <button class="secondary-button" onclick="goTo('contact')">
-          Contacteer mij
-        </button>
-      </div>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
-      <div id="wavevector">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="vectorwave"
-          style="fill: var(--background-color);"
-          viewBox="0 0 240 22"
-          preserveAspectRatio="none"
-        >
-          <path
-            class="divider-fill"
-            style="opacity: 0.33;"
-            d="m 239.971,0.03506085 c -4.61,-0.17416486 -9.552,0.31166344 -15,1.20998745 C 204.576,4.6559297 198.738,12.530015 185.552,17.095884 163.344,24.776555 144.006,3.7851053 119.933,3.7851053 94.252,3.7851053 89.447,26.941699 57.427,20.331684 34.632,15.582483 27.625,7.6350655 10.323,10.13754 7.613,10.540869 3.77,11.090863 0,11.796689 V 22 H 240 V 0.03506085 Z"
-          ></path>
-          <path
-            class="divider-fill"
-            d="m 239.99,5.2731131 c -4.825,-0.584952 -10.606,-0.1919374 -17.48,0.813449 -20.276,2.943954 -24.593,9.9542389 -38.892,13.9026649 -23.967,6.65383 -39.71,-14.633855 -61.787,-14.633855 -23.521,0 -37.345,20.794132 -63.486,15.119183 C 39.701,16.406396 32.922,9.5240694 15.861,11.69936 9.751,12.476249 4.438,14.039168 0,17.816679 V 22 H 240 V 6.6011371 Z"
-          ></path>
-          <path
-            class="divider-fill"
-            style="opacity: 0.33;"
-            d="M 222.049,3.2571465 C 201.246,6.7240757 196.851,14.983196 182.2,19.643048 157.589,27.470666 141.472,2.4081215 118.858,2.4081215 94.734,2.4081215 80.571,26.930123 53.776,20.210617 34.707,15.400719 27.743,7.3112169 10.27,9.8648154 6.553,10.414678 3.121,11.28141 0,12.399774 V 22 H 240 V 2.3242443 C 234.979,1.6345862 229.1,2.0912517 222.049,3.2571465 Z"
-          ></path>
-        </svg>
-      </div>
-    </div>
+    <script src="/assets/main.js"></script>
 
-    <div class="info" id="projects">
-      <h2>
-        Mijn projecten<span style="color: rgb(233, 185, 2); font-size: 50px;"
-          >.</span
-        >
-      </h2>
-      <br />
-    </div>
-    <div class="contact-container">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#127681"
-          fill-opacity="1"
-          d="M0,128L48,106.7C96,85,192,43,288,64C384,85,480,171,576,202.7C672,235,768,213,864,176C960,139,1056,85,1152,85.3C1248,85,1344,139,1392,165.3L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
-        ></path>
-      </svg>
-      <div id="contact">
-        <h2 style="margin: 80px 0px 50px 0px; font-size: 40px;">
-          Contacteer mij<span style="color: rgb(233, 185, 2); font-size: 50px;"
-            >.</span
-          >
-        </h2>
-        <div id="wrapper">
-          <div class="contact-form">
-            <div class="contact-box">
-              <form>
-                <p>Naam:</p>
-                <input type="text" />
-                <p>Email:</p>
-                <input type="email" />
-                <p>Bericht:</p>
-                <textarea rows="8"></textarea><br /><br />
-                <button
-                  type="submit"
-                  onclick="event.preventDefault(); 
-          Swal.fire({
-            icon: 'error',
-            title: 'Oops...',
-            text: 'Dit gaat helaas nog niet! Je kan me bereiken door een bericht via mail of discord te sturen.',
-            footer: '<a href=\'https://github.com/mohagames205/portfolio\'>Bekijk dit project op Github</a>'
-          })
-          "
-                  class="primary-button btn-small"
-                >
-                  Indienen
-                </button>
-              </form>
-            </div>
-          </div>
+    <title>Mohamed, dat ben ik</title>
+</head>
+<body>
+    
+    <div class="container">
+        
 
-          <div class="socials">
-            <h2>Vragen? Feedback?</h2>
-            <p>
-              Vul het contactformulier in of contacteer mij via 1 van de
-              knopjes. Je krijgt dan zo snel mogelijk een antwoord van mij.
-            </p>
-            <span id="discordhidden"
-              ><button
-                class="primary-button"
-                onclick="document.querySelector('#discordhidden').innerHTML = '<b>Mohamed#0002</b>';"
-                style="background-color: #7289da;"
-              >
-                <i class="fab fa-discord"></i> Discord
-              </button></span
-            >
-            <button
-              class="primary-button"
-              onclick="location.href='mailto:mohamedelyousfi87@gmail.com';"
-              style="background-color: red;"
-            >
-              <i class="fa fa-envelope" aria-hidden="true"></i> Mail
-            </button>
-            <br /><br />
-            <h2>Archief</h2>
-            <p>Wil je meer projecten zien? Bezoek het archief!</p>
-            <button
-              class="secondary-button btn-small"
-              onclick="location.href='https://archief.mohamedelyousfi.me'"
-            >
-              Archief
-            </button>
-          </div>
+        <div id="titlebox">
+            <h1>
+            Hoi,<br>
+            Ik ben Mohamed</h1>
+            <p>"We are a way for the cosmos to know itself." - Carl Sagan</p>
+
         </div>
-      </div>
-    </div>
 
-    <script>
-      var element = document.getElementById("typewriter");
 
-      var typewriter = new Typewriter(element, {
-        strings: [
-          "Een full-stack developer",
-          "Webdevelopment, PHP, Java, Python en C++ 💻",
-          "Een ruimte liefhebber 🚀 ✨",
-          "Heb je vragen? Aarzel dan niet om mij te contacteren! 📨",
-          "Autodidactische programmeur 📚",
-          "Ben je nog aan het lezen? 😮",
-        ],
-        loop: true,
-        delay: 80,
-        autoStart: true,
-      });
-    </script>
-    <script>
-      // Dit laadt alles van de projects.json file in en displayed het in de website.
-      init();
-    </script>
-  </body>
+        <div class="info">
+            <h1>Wie ben ik?</h1>
+            <p>Ik ben een 19 jarige jongen uit Leuven. Ik heb een enorme passie voor mens en wetenschap, in het bijzonder de sterrenkunde en de werking van het menselijk lichaam.</p>
+            
+            <h2>Kleine samenvatting</h2>
+
+            <div class="descriptor" id="js-descriptor">    
+                    <div class="element">
+
+                        <div class="divider">
+                                <span class="material-symbols-outlined">
+                                    cake
+                                    </span>
+
+                            <p>
+                                19 jaar
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="element">
+                        <div class="divider">
+                            <span class="material-symbols-outlined">
+                                school
+                                </span>
+
+                                <p>
+                                    Biomedische wetenschappen
+                                </p>
+                        </div>
+
+                        
+                    </div>
+
+                    <div class="element">
+                        <div class="divider">
+                            <span class="material-symbols-outlined">
+                                local_hospital
+                                </span>
+    
+                                <p>
+                                    Eerstehulpverlener bij Rode Kruis-Leuven
+                                </p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="banner">
+            <h1>Mijn programmeersels</h1>
+            <p>In mijn vrije tijd ben ik meestal bezig met coole dingen te programmeren. Ik programmeer voornamelijk in <u>PHP, Go en JavaScript</u>.<br>Hieronder vind je een overzicht van mijn tofste projecten.</p>
+        </div>
+
+        <div class="projects">
+            <h1>Mijn projecten</h1>
+            <p>Deze sectie is nog niet af </p>
+
+            <div class="project-grid" id="projects">
+            
+
+            </div>
+
+
+        </div>
+
+        <footer>
+            <p>Deze website is met 💖 ontworpen en ontwikkeld door <b>Mohamed El Yousfi</b></p>
+        </footer>
+
+        </div>
+
+
+
+</body>
+
+<script>
+
+    init();
+
+
+
+</script>
+
 </html>

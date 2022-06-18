@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/build/stylesheets/index.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <script src="/assets/main.js"></script>
+
+    <title>Mootje.</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        
+        <div class="pridecorner">
+            <button id="prideify"><img src="/assets/mario.png"></button>
+        </div>
+        
+
+        <div id="titlebox">
+            <h1>
+            Hoi,<br>
+            Ik ben Mohamed</h1>
+            <p>"We are a way for the cosmos to know itself." - Carl Sagan</p>
+            
+        </div>
+
+
+        <div class="info">
+            <h1>Wie ben ik?</h1>
+            <p>Ik ben een 19 jarige jongen uit Leuven. Ik heb een enorme passie voor de mens en de wetenschap en in het bijzonder de sterrenkunde en de werking van het menselijk lichaam.</p>
+            
+            <h2>Kleine samenvatting</h2>
+
+            <div class="descriptor" id="js-descriptor">    
+                    <div class="element">
+
+                        <div class="divider">
+                                <span class="material-symbols-outlined">
+                                    cake
+                                    </span>
+
+                            <p>
+                                19 jaar
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="element">
+                        <div class="divider">
+                            <span class="material-symbols-outlined">
+                                school
+                                </span>
+
+                                <p>
+                                    Biomedische wetenschappen
+                                </p>
+                        </div>
+
+                        
+                    </div>
+
+                    <div class="element">
+                        <div class="divider">
+                            <span class="material-symbols-outlined">
+                                construction
+                                </span>
+    
+                                <p>
+                                    Nog niets hier :)
+                                </p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="banner">
+            <h1>Mijn programmeersels</h1>
+            <p>In mijn vrije tijd ben ik meestal bezig met coole dingen te programmeren. Ik programmeer voornamelijk in <u>PHP, Go en JavaScript</u>.<br>Hieronder vind je een overzicht van mijn tofste projecten.</p>
+        </div>
+
+        <div class="projects">
+            <h1>Mijn projecten</h1>
+            <p>Deze sectie is nog niet af </p>
+
+            <div class="project-grid" id="projects">
+            
+
+            </div>
+
+
+        </div>
+
+        <footer>
+            <p>Deze website is met 💖 ontworpen en ontwikkeld door <b>Mohamed El Yousfi</b></p>
+        </footer>
+
+        </div>
+
+
+
+</body>
+
+<script>
+
+    init();
+
+
+    var clicks = 0
+
+    document.getElementById("prideify").onclick = e => {
+        clicks++;
+
+        const titlebox = document.getElementById("titlebox");
+        const descriptor = document.getElementById("js-descriptor");
+
+        if(!titlebox.classList.contains("pridify") && clicks >= 6) {
+            titlebox.classList.add("pridify");  
+            descriptor.classList.add("pridify");
+            clicks = 0
+        } else {
+            titlebox.classList.remove("pridify");
+            descriptor.classList.remove("pridify");
+        }      
+    };
+
+
+</script>
+
+</html>
