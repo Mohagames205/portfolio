@@ -15,6 +15,12 @@
             "language": ["JavaScript", "PHP"]
         },
         {
+            "title": "Pyeelight",
+            "description": "Pyeelight is een library die communicatie met Yeelight lampen faciliteert. Pyeelight laat toe om via Python code, Yeelight lampen te besturen.",
+            "source": "https://github.com/Mohagames205/pyeelight-api",
+            "language": ["Python"]
+        },
+        {
             "title": "LoveMeter",
             "description": "LoveMeter is een website die ik uit verveling heb gemaakt. Het meet hoe goed 2 personen bij elkaar passen op basis van hun naam. Hoe meer letters hetzelfde zijn, hoe beter de score.",
             "source": "https://github.com/Mohagames205/LoveMeter",
