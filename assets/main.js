@@ -18,7 +18,7 @@ function init() {
                     <div class="button-group">
                     <button onclick="window.open('${element.source}')" class='primary-button btn-small'><b>Source</b></button>`
                     
-        if(element.demo != "#") html += `<button onclick="window.open('${element.demo}')" class='secondary-button btn-small'><b>Demo</b></button>` 
+        if(element.demo != "#" && element.demo != undefined) html += `<button onclick="window.open('${element.demo}')" class='secondary-button btn-small'><b>Demo</b></button>` 
         
         html += `</div></div>`
         
