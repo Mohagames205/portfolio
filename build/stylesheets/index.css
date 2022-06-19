@@ -270,6 +270,10 @@ img:hover {
     background-color: rgb(38, 77, 228)
 }
 
+.badge-python .sm-circle {
+    background-color: rgb(255, 212, 59)
+}
+
 
 .descriptor {
     display: flex;
