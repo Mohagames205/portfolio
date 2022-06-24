@@ -21,13 +21,6 @@
             "language": ["Python"]
         },
         {
-            "title": "LoveMeter",
-            "description": "LoveMeter is een website die ik uit verveling heb gemaakt. Het meet hoe goed 2 personen bij elkaar passen op basis van hun naam. Hoe meer letters hetzelfde zijn, hoe beter de score.",
-            "source": "https://github.com/Mohagames205/LoveMeter",
-            "demo": "https://lovemeterapp.herokuapp.com/",
-            "language": ["PHP"]
-        },
-        {
             "title": "Quadratic Solver",
             "description": "Quadratic Solver is een website die 2de graadsvergelijkingen oplost. Het toont ook mooi alle stapjes die het programma heeft genomen. Zo kunnen de leerlingen leren uit hun fouten doordat ze zien hoe de website op de oplossing komt.",
             "source": "https://github.com/Mohagames205/quadratic_web",
