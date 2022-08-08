@@ -366,7 +366,15 @@ img:hover {
     }
 
     #titlebox h1 {
-        font-size: 25px;
+        font-size: 40px;
+    }
+
+    #titlebox br {
+        display: contents;
+    }
+
+    #titlebox p {
+        font-size: 15px;
     }
 
     .container {
