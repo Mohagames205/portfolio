@@ -357,6 +357,12 @@ img:hover {
 }
 
 
+@media only screen and (max-width: 1200px) {
+    .container {
+        grid-template-columns: 0.1fr 10fr 0.1fr;
+    }
+}
+
 
 @media only screen and (max-width: 600px) {
 
