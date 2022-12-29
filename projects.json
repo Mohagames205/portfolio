@@ -4,13 +4,13 @@
             "title": "Golileo",
             "description": "Golileo is een Skin API voor Minecraft: Bedrock Edition. Via deze website kan je skins van spelers opzoeken of uploaden. Probeer eens te zoeken naar 'Mohahamed'",
             "source": "https://github.com/Mohagames205/Golileo",
-            "demo": "https://golileo.galactixpe.nl",
+            "demo": "https://golileo.mootje.be",
             "language": ["Go", "JavaScript"]
         },
         {
             "title": "Voxum",
             "description": "Voxum is een proximity voice chat webapplicatie voor Minecraft: Bedrock Edition.",
-            "source": "https://github.com/Mohagames205/voxum-client",
+            "source": "https://github.com/Mohagames205/voxum-rewritten",
             "demo": "https://voxum.mootje.be",
             "language": ["JavaScript", "PHP"]
         },
