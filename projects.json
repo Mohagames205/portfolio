@@ -24,7 +24,7 @@
             "title": "Quadratic Solver",
             "description": "Quadratic Solver is een website die 2de graadsvergelijkingen oplost. Het toont ook mooi alle stapjes die het programma heeft genomen. Zo kunnen de leerlingen leren uit hun fouten doordat ze zien hoe de website op de oplossing komt.",
             "source": "https://github.com/Mohagames205/quadratic_web",
-            "demo": "https://vergelijking.herokuapp.com",
+            "demo": "https://dcal.mootje.be",
             "language": ["PHP"]
         },
         {
