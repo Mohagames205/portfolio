@@ -98,12 +98,12 @@
     
     
     <script>
-        var dob = new Date("05/01/2003");  
+        var dob = new Date("01/05/2003");  
         var month_diff = Date.now() - dob.getTime();  
         var age_dt = new Date(month_diff);   
         var year = age_dt.getUTCFullYear();  
         var age = Math.abs(year - 1970);  
-        document.getElementById("age").innerText = age
+        document.getElementById("age").innerText = `${age} jaar`
         
     </script
 
