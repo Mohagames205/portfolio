@@ -39,8 +39,8 @@
                                     cake
                                     </span>
 
-                            <p>
-                                19 jaar
+                            <p id="age">
+                                x jaar
                             </p>
                         </div>
                     </div>
@@ -95,6 +95,17 @@
         </footer>
 
         </div>
+    
+    
+    <script>
+        var dob = new Date("05/01/2003");  
+        var month_diff = Date.now() - dob.getTime();  
+        var age_dt = new Date(month_diff);   
+        var year = age_dt.getUTCFullYear();  
+        var age = Math.abs(year - 1970);  
+        document.getElementById("age").innerText = age
+        
+    </script
 
 
 
