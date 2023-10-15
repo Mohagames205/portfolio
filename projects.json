@@ -1,13 +1,6 @@
 {
     "projects": [
         {
-            "title": "Dramatic T-shirts",
-            "description": "Een simpel 'webshop' systeem dat ik in elkaar heb gestoken voor een vriend. Via de website kan je 'producten' reserveren en opvolgen",
-            "source": "https://github.com/Mohagames205/drama",
-            "demo": "https://github.com/Mohagames205/drama",
-            "language": ["PHP", "CSS"]
-        },
-        {
             "title": "Golileo",
             "description": "Golileo is een Skin API voor Minecraft: Bedrock Edition. Via deze website kan je skins van spelers opzoeken of uploaden. Probeer eens te zoeken naar 'Mohahamed'",
             "source": "https://github.com/Mohagames205/Golileo",
