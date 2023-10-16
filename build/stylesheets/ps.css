@@ -1,18 +1,19 @@
-.descriptor .element:nth-child(1) {
-    background-color: #000000;
+.descriptor {
     color: white;
     -webkit-text-stroke: 1px black;
 }
 
+.descriptor .element:nth-child(1) {
+    background-color: #E4312b;
+}
+
 .descriptor .element:nth-child(2) {
-    background-color: white;
+    background-color: black;
     
 }
 
 .descriptor .element:nth-child(3) {
     background-color: #149954;
-    color: white;
-    -webkit-text-stroke: 1px black;
 }
 
 #titlebox {
