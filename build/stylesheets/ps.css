@@ -20,4 +20,6 @@
     background-color:#E4312b;
     background-image: url('/assets/alquds.jpeg');
     filter: grayscale(0.2);
+    background-size: cover;
+    background-position: center center;
 }
