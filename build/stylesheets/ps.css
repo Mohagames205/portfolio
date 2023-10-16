@@ -16,5 +16,6 @@
 }
 
 #titlebox {
+    background: unset;
     background-color:#E4312b;
 }
