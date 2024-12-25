@@ -9,20 +9,20 @@
         },
         {
             "title": "Voxum",
-            "description": "Voxum is een proximity voice chat webapplicatie voor Minecraft: Bedrock Edition.",
+            "description": "Voxum is een proximity voice chat webapplicatie voor Minecraft: Bedrock Edition. Met Voxum hoor je spelers die dichtbij zijn luider dan spelers die verderop zijn.",
             "source": "https://github.com/Mohagames205/voxum-rewritten",
             "demo": "https://voxum.mootje.be",
             "language": ["JavaScript", "PHP"]
         },
         {
             "title": "Pyeelight",
-            "description": "Pyeelight is een library die communicatie met Yeelight lampen faciliteert. Pyeelight laat toe om via Python code, Yeelight lampen te besturen.",
+            "description": "Pyeelight is een library die communicatie met Yeelight lampen faciliteert. Pyeelight laat toe om via Python code, Yeelight lampen te besturen. Momenteel kan je de kleur, helderheid en energiestand aanpassen.",
             "source": "https://github.com/Mohagames205/pyeelight-api",
             "language": ["Python"]
         },
         {
             "title": "Quadratic Solver",
-            "description": "Quadratic Solver is een website die 2de graadsvergelijkingen oplost. Het toont ook mooi alle stapjes die het programma heeft genomen. Zo kunnen de leerlingen leren uit hun fouten doordat ze zien hoe de website op de oplossing komt.",
+            "description": "Quadratic Solver is een website die ik in het 4de middelbaar maakte. Je kan er 2degraadsvergelijkingen mee oplossen. Het toont alle stapjes die het programma heeft genomen om tot het resultaat te komen. Zo kunnen de leerlingen leren uit hun fouten doordat ze zien hoe de website op de oplossing komt.",
             "source": "https://github.com/Mohagames205/quadratic_web",
             "demo": "https://dcal.mootje.be",
             "language": ["PHP"]
@@ -36,19 +36,19 @@
         },
         {
             "title": "KindMessage",
-            "description": "KindMessage is 1 van mijn eerste websites gemaakt in Laravel. Mensen kunnen met een unieke code toegang krijgen tot een gepersonaliseerd bericht. Dit is leuk voor verjaardagen etc",
+            "description": "KindMessage is 1 van mijn eerste websites gemaakt in Laravel. Via een unieke code kun je toegang krijgen tot een gepersonaliseerd pagina/bericht. Dit is leuk voor verjaardagen etc",
             "source": "https://github.com/Mohagames205/KindMessage",
             "language": ["PHP"]
         },
         {
             "title": "Forum",
-            "description": "Deze website is een zeer simpel forum systeempje, waar je posts kan verwijderen en posten. Dit was 1 van mijn allereerste php sites die ik heb gemaakt.",
+            "description": "Deze website is een zeer simpel en primitief forum systeempje, waar je posts kan verwijderen en posten. Dit was 1 van mijn allereerste php sites die ik heb gemaakt. Als ik het mij goed herinner had ik deze website in het 3de-4de middelbaar ontworpen.",
             "demo": "https://ancient.mootje.be/forum/",
             "language": ["PHP"]
         },
         {
             "title": "Pompeius Expo",
-            "description": "Dit was een website die ik had gemaakt voor een opdracht die we hadden gekregen voor het vak Latijn. De website bevat informatie over de Pompeius Expositie.",
+            "description": "Dit was een website die ik had gemaakt voor een opdracht die we hadden gekregen voor het vak Latijn (4de middelbaar). De website bevat informatie over de Pompeius Expositie.",
             "demo": "https://ancient.mootje.be/Latijn/",
             "language": ["HTML", "CSS"]
         },
