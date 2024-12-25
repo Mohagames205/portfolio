@@ -22,7 +22,7 @@
         },
         {
             "title": "Quadratic Solver",
-            "description": "Quadratic Solver is een website die ik in het 4de middelbaar maakte. Je kan er 2degraadsvergelijkingen mee oplossen. Het toont alle stapjes die het programma heeft genomen om tot het resultaat te komen. Zo kunnen de leerlingen leren uit hun fouten doordat ze zien hoe de website op de oplossing komt.",
+            "description": "Quadratic Solver is een website die ik in het 4de middelbaar maakte. Op de website kan je kwadraatsvergelijkingen oplossen en zie je welke stappen genomen zijn.",
             "source": "https://github.com/Mohagames205/quadratic_web",
             "demo": "https://dcal.mootje.be",
             "language": ["PHP"]
