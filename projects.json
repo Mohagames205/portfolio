@@ -31,7 +31,7 @@
             "title": "FlowPanel",
             "description": "FlowPanel is een paneel gemaakt voor een fictief bedrijf op Habbo. Het was 1 van mijn eerste grote PHP projecten. Het project is geschreven zonder framework en bevat veel exploits.",
             "source": "https://github.com/Mohagames205/Flowpanel",
-            "demo": "#",
+            "demo": "https://flowpanel.mootje.be",
             "language": ["PHP"]
         },
         {
