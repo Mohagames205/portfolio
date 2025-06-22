@@ -58,14 +58,6 @@
             "source": "#",
             "demo": "https://ancient.mootje.be/cakecraft/",
             "language": ["PHP"]
-        },
-        
-        {
-            "title": "Corona Tracker",
-            "description": "Corona tracker is een website die het aantal besmettingen, doden en genezingen toont. De data wordt opgehaald via een externe API.",
-            "source": "#",
-            "demo": "https://mootje.be/corona/",
-            "language": ["JavaScript"]
         }
     ]
 }
